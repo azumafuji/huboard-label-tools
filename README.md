@@ -16,7 +16,7 @@ This script will create a set of standard labels in a repository. The labels are
 The script will prompt you for a repository and your git credentials.  If you don't have access to the repository or don't have authorization to make the changes, the script will fail.
 
 ##cleanup-link-colors.py
-This script will update the color of all the 'Link <==> ...' labels used by Hubaord to link repositories together.  The script will cycle through a set of colors defined in the script and apply them to the link labels. The intent to make the link lables distinguishable in the Huboard but not so obtrusive that they would be visually distracting.
+This script will update the color of all the 'Link <==> ...' labels used by Huboard to link repositories together.  The script will cycle through a set of colors defined in the script and apply them to the link labels. The intent is to make the link lables distinguishable in the Huboard but not so obtrusive that they would be visually distracting.
 
 ###Usage
 
