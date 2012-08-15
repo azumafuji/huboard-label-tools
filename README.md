@@ -11,7 +11,7 @@ This script will create a set of standard labels in a repository. The labels are
 
 ###Usage
 
-The script will prompt you for a repository and your git credentials.  If you don't have access to the repository or don't have authorization to make the changes, the script will fail. The repository should be specified as <user|org>/<repository> e.g. azumafuji/huboard-label-tools.
+The script will prompt you for a repository and your git credentials.  If you don't have access to the repository or don't have authorization to make the changes, the script will fail. The repository should be specified as ``<user|org>/<repository>`` e.g. ``azumafuji/huboard-label-tools``.
 
     $ python add-standard-labels.py
     This script will create the default labels 0 - Backlog, 1 - On Deck,
@@ -29,10 +29,10 @@ The script will prompt you for a repository and your git credentials.  If you do
 
 
 ##cleanup-link-colors.py
-This script will update the color of all the 'Link <==> ...' labels used by Huboard to link repositories together.  The script will cycle through a set of colors defined in the script and apply them to the link labels. The intent is to make the link lables distinguishable in the Huboard but not so obtrusive that they would be visually distracting.
+This script will update the color of all the 'Link <=> ...' labels used by Huboard to link repositories together.  The script will cycle through a set of colors defined in the script and apply them to the link labels. The intent is to make the link lables distinguishable in the Huboard but not so obtrusive that they would be visually distracting.
 
 ###Usage
-The script will prompt you for a repository and your git credentials.  If you don't have access to the repository or don't have authorization to make the changes, the script will fail. The repository should be specified as <user|org>/<repository> e.g. azumafuji/huboard-label-tools.
+The script will prompt you for a repository and your git credentials.  If you don't have access to the repository or don't have authorization to make the changes, the script will fail. The repository should be specified as ``<user|org>/<repository>`` e.g. ``azumafuji/huboard-label-tools``.
 
     $ python cleanup-link-colors.py
     This script will update the Link issue colors in a repository for use with
